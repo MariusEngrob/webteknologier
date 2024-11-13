@@ -21,13 +21,11 @@ body {
 }
 
 .large-container {
-  border: 2px solid blue;
-  margin-top: 20px;
+  margin: 50px 0 50px 0;
 }
 
 .container {
   display: flex;
-  border: 2px solid red;
 }
 
 .card {
@@ -40,7 +38,7 @@ body {
   margin: 2vmin;
 }
 .small-card {
-  aspect-ratio: 1 / 0.8;
+  aspect-ratio: 1 / 0.75;
   border: 0.5vmin solid var(--border);
   cursor: pointer;
   position: relative;
@@ -88,13 +86,10 @@ body {
   background-size: 300% 300%;
   content: "";
   height: 100%;
-  left: 0px;
   pointer-events: none;
   position: absolute;
-  top: 0px;
   transition: background-position 350ms ease, transform 350ms ease;
   width: 100%;
-  z-index: 1;
   border-radius: 2vmin;
 }
 .small-card:before {
@@ -115,7 +110,6 @@ body {
   top: 0px;
   transition: background-position 350ms ease, transform 350ms ease;
   width: 100%;
-  z-index: 1;
   border-radius: 2vmin;
 }
 
@@ -131,7 +125,7 @@ body {
   position: relative;
   transition: background-position 350ms ease;
   width: calc(100% - 10vmin);
-  z-index: 2;
+  z-index: 1;
 }
 
 .card-title,
