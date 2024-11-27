@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(52, 216, 237);
+}
+.links {
+    display: flex; /* Brug flexbox for at arrangere felterne i en række */
+    flex-wrap: wrap; /* Sørg for at felterne kan brydes til næste linje */
+    justify-content: space-between; /* Fordel pladsen mellem felterne */
+    margin-top: 20px; /* Margin over links sektionen */
+    font-size: 60px;
+}
+
+.link-box {
+    background-color: #007BFF; /* Baggrundsfarve */
+    color: white; /* Tekstfarve */
+    padding: 20px; /* Indvendig afstand */
+    margin: 10px; /* Margin mellem felterne */
+    flex: 1 1 30%; /* Flex-effekt for at få felterne til at fylde pladsen */
+    height: 150px;
+    text-align: center; /* Centrer tekst */
+    border-radius: 10px; /* Runde hjørner */
+    text-decoration: none; /* Fjern understregning */
+    transition: background-color 0.3s; /* Overgangseffekt på hover */
+
+}
+
+.link-box:hover {
+    background-color: #0056b3; /* Mørkere farve ved hover */
+}
