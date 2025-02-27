@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="billeder/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>billedmanipulation</title>
+</head>
+<body>
+  <header>
+    <h1>billedmanipulation</h1>
+    <a href="index.html">tilbage</a>
+  </header>
+  <main>
+    <!--Hvad er billedmanipulation?-->
+    <section>
+      <h2>hvad er billedmanipulation?</h2>
+      <p>Billedmanipulation indebærer at ændre eller redigere et billede ved f.eks. at justere farverne, forbedre kvaliteten eller tilføje visuelle effekter.</p>
+    </section>
+
+    <!--Hvad er javaScript?-->
+    <section>
+      <h2>hvad er JavaScript?</h2>
+      <p>JavaScript er et sprog, der bruges til at gøre websider interaktive.<br>Ved brug af JavaScript kan man dermed bl.a. håndtere brugerinput og manipulere HTML og CSS.</p>
+
+      <h3>eksempel</h3>
+      <img src="billeder/js.png" alt="">
+      <p>Ovenover ses et eksempel på JavaScript, der medvirker til billedmanipulation.<br>Forklaringer til hver linje ses nedenunder.</p>
+      <ul>
+        <li><span>1</span> - definerer variablen vRed og sætter den til 0</li>
+        <li><span>2</span> - definerer variablen vGreen og sætter den til 0</li>
+        <li><span>3</span> - definerer variablen vBlue og sætter den til 0</li>
+        <br>
+        <li><span>5</span> - den indbyggede funktion MouseDragged findes frem</li>
+        <li><span>6</span> - vælger RGB-farven for tegnede elementer</li>
+        <li><span>7</span> - tegner en linje fra musens position til musens position</li>
+        <br>
+        <li><span>10</span> - skaber en funktion kaldet colorRed</li>
+        <li><span>11</span> - vRed sættes til 255</li>
+        <li><span>12</span> - vGreen sættes til 0</li>
+        <li><span>13</span> - vBlue sættes til 0</li>
+        <br>
+        <li><span>16</span> - skaber en funktion kaldet colorBlue</li>
+        <li><span>17</span> - vRed sættes til 0</li>
+        <li><span>18</span> - vGreen sættes til 0</li>
+        <li><span>19</span> - vBlue sættes til 255</li>
+      </ul>
+      <p>Med andre ord skabes tre variable, der bestemmer de RGB-værdier, som der skal tegnes med. Dernæst bestemmes det, at når musen klikkes og bevæges, så skal der tegnes en linje under musen med en farve bestemt af variablene for RGB-værdierne. Derudover skabes også to funktioner, der hverisær bestemmer RGB-farven til at være rød eller blå.</p>
+
+      <img src="billeder/html-pixelPaint.png" alt="">
+      <p>Ovenover ses et eksempel på HTML, der medvirker til billedmanipulation.<br>Forklaringer til hver linje ses nedenunder.</p>
+      <ul>
+        <li><span>13</span> - skaber en knap, som kalder funktionen colorRed, når den klikkes</li>
+        <li><span>14</span> - skaber en knap, som kalder funktionen colorBlue, når den klikkes</li>
+      </ul>
+      <p>Med andre ord kaldes funktionerne, der ændre RGB-værdierne til den linje, der tegnes med, ved at klikke på knapperne. Derved kan man både vælge en rød og blå farve at tegne med.</p>
+    </section>
+
+    <!--pixelPaint-->
+    <section>
+      <h2>pixelPaint</h2>
+
+      <!--Kort beskrivelse af det problem jeres program skal løse-->
+      <p>Vores program 'pixelPaint' skal demonstrere, hvordan man kan manipulere billeder på pixel-niveau.</p>
+      
+      <!--Kort beskrivelse af hvordan programmet overordnet løser problemet, eller er et skridt på vejen-->
+      <p>Programmet opnår dette ved at gøre det muligt at tegne på et billede med forskellige farver. Programmet indeholder også en clear- og en save-knap, således man både kan slette og gemme sine ændringer.</p>
+      
+      <!--Overvejelser om hvilke teorier I har brugt, Interaktionsdesign, Innovation, Modellering-->
+      <p>Programmet er designet til at være brugervenligt og nemt at interagere med, således alle kan bruge det. Derudover har vi valgt et minimalistisk design, der minimerer distraktioner fra programmets funktion.</p>
+      
+      <!--Konkrete eksempler på valg I har truffet i processen, gerne med billeder eller selve produktet, programmet-->
+      <p></p>
+      
+      <a href="pixelPaint/index.html">se program</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy Marius Engrob Nielsen 2022y</p>
+  </footer>
+</body>
+</html>
